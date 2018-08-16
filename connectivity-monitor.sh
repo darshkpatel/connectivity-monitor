@@ -7,7 +7,7 @@ do
     sleep 30
   else
    NOW=$(date +%H:%M:%S\ %d-%m-%y)
-   wall "Host is Down ! - $NOW"
+   wall "Host is Down!! - $NOW"
    sleep 60
   fi
 done
